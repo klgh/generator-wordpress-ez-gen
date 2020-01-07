@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Kaleigh Scruggs",
+      "authorEmail": "kaleigh.scruggs@northhighland.com",
+      "authorUrl": ""
+    }
+  }
+}
