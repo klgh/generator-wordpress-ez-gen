@@ -1,12 +1,12 @@
 {
   "name": "generator-wordpress-ez-gen",
-  "version": "0.0.0",
-  "description": "create wordpress site with plugings",
+  "version": "1.0.0",
+  "description": "create wordpress site with plugins",
   "homepage": "https://github.com/klgh/generator-wordpress-ez-gen",
   "author": {
     "name": "Kaleigh Scruggs",
     "email": "kaleigh.scruggs@northhighland.com",
-    "url": ""
+    "url": "https://github.com/klgh/"
   },
   "files": [
     "generators"
