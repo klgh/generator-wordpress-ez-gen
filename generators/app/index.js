@@ -7,14 +7,18 @@ module.exports = class extends Generator {
   prompting() {
     // Have Yeoman greet the user.
     this.log(
-      yosay(`Welcome to the well-made ${chalk.red('generator-wordpress-ez-gen')} generator!`)
+      yosay(
+        `${chalk.bold.green('Welcome')} to the ${chalk.magenta(
+          'ez'
+        )} ${chalk.blue('WordPress')} generator!`
+      )
     );
 
     const prompts = [
       {
         type: 'confirm',
         name: 'someAnswer',
-        message: 'Would you like to enable this option?',
+        message: 'Would you like to create a new wordpress site?',
         default: true
       }
     ];
